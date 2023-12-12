@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClocksProject.MainPage">
+
+    <Grid ColumnDefinitions="10, *, 10, 10, *, 10, 10, 10, *, 10, 10, *, 10" ColumnSpacing="20" 
+          RowDefinitions="10, *, 10, *, 10" RowSpacing="10" WidthRequest="-1" HeightRequest="300"
+          x:Name="myGrid" Margin="100" VerticalOptions="Start">
+        <StackLayout x:Name="myStackLayout"></StackLayout>
+
+        <BoxView Grid.Column="1" Color="Pink" x:Name="Segment10"/>
+
+        <BoxView Grid.Column="0" Grid.Row="1" Color="Pink" x:Name="Segment11"/>
+        <BoxView Grid.Column="2" Grid.Row="1" Color="Pink" x:Name="Segment12"/>
+
+        <BoxView Grid.Column="1" Grid.Row="2" Color="Pink" x:Name="Segment13"/>
+
+        <BoxView Grid.Column="0" Grid.Row="3" Color="Pink" x:Name="Segment14"/>
+        <BoxView Grid.Column="2" Grid.Row="3" Color="Pink" x:Name="Segment15"/>
+
+        <BoxView Grid.Column="1" Grid.Row="4" Color="Pink" x:Name="Segment16"/>
+
+        <BoxView Grid.Column="4" Color="Pink" x:Name="Segment20"/>
+
+        <BoxView Grid.Column="3" Grid.Row="1" Color="Pink" x:Name="Segment21"/>
+        <BoxView Grid.Column="5" Grid.Row="1" Color="Pink" x:Name="Segment22"/>
+
+        <BoxView Grid.Column="4" Grid.Row="2" Color="Pink" x:Name="Segment23"/>
+
+        <BoxView Grid.Column="3" Grid.Row="3" Color="Pink" x:Name="Segment24"/>
+        <BoxView Grid.Column="5" Grid.Row="3" Color="Pink" x:Name="Segment25"/>
+
+        <BoxView Grid.Column="4" Grid.Row="4" Color="Pink" x:Name="Segment26"/>
+
+        <BoxView HeightRequest="40" Grid.Column="6" Grid.Row="1" Color="White" x:Name="Segment0000"/>
+        <BoxView HeightRequest="40" Grid.Column="6" Grid.Row="3" Color="White" x:Name="Segment1111"/>
+
+        <BoxView Grid.Column="8" Color="Pink" x:Name="Segment30"/>
+
+        <BoxView Grid.Column="7" Grid.Row="1" Color="Pink" x:Name="Segment31"/>
+        <BoxView Grid.Column="9" Grid.Row="1" Color="Pink" x:Name="Segment32"/>
+
+        <BoxView Grid.Column="8" Grid.Row="2" Color="Pink" x:Name="Segment33"/>
+
+        <BoxView Grid.Column="7" Grid.Row="3" Color="Pink" x:Name="Segment34"/>
+        <BoxView Grid.Column="9" Grid.Row="3" Color="Pink" x:Name="Segment35"/>
+
+        <BoxView Grid.Column="8" Grid.Row="4" Color="Pink" x:Name="Segment36"/>
+
+        <BoxView Grid.Column="11" Color="Pink" x:Name="Segment40"/>
+
+        <BoxView Grid.Column="10" Grid.Row="1" Color="Pink" x:Name="Segment41"/>
+        <BoxView Grid.Column="12" Grid.Row="1" Color="Pink" x:Name="Segment42"/>
+
+        <BoxView Grid.Column="11" Grid.Row="2" Color="Pink" x:Name="Segment43"/>
+
+        <BoxView Grid.Column="10" Grid.Row="3" Color="Pink" x:Name="Segment44"/>
+        <BoxView Grid.Column="12" Grid.Row="3" Color="Pink" x:Name="Segment45"/>
+
+        <BoxView Grid.Column="11" Grid.Row="4" Color="Pink" x:Name="Segment46"/>
+        
+    </Grid>
+
+</ContentPage>
